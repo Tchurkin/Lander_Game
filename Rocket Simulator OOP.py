@@ -317,7 +317,7 @@ while running:
     # check if window close
     for event in pygame.event.get():
         keys = pygame.key.get_pressed()
-        if event.type == pygame.QUIT or keys[pygame.K_q]:
+        if event.type == pygame.QUIT or keys[pygame.K_ESCAPE]:
             running = False
 
     # check if respawn
