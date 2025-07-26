@@ -5,4 +5,4 @@ Controls: arrow keys
 
 Restart: space bar
 
-Exit: Q
+Exit: escape
